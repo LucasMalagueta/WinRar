@@ -22,14 +22,14 @@ Este projeto simula um sistema de **compactação e descompactação de dados** 
 
 ---
 
-## 📁 Arquivos
+## Arquivos
 
 - `codifica.cpp` → Responsável pela leitura do texto, construção da árvore de Huffman, geração dos códigos e codificação dos dados em arquivo.
 - `decodifica.cpp` → Responsável pela leitura dos dados codificados, reconstrução da árvore e descompactação para recuperar o texto original.
 
 ---
 
-## 📜 Como Funciona
+## Como Funciona
 
 1. O programa **Codifica** lê um texto, calcula a frequência das palavras e gera os códigos de Huffman.
 2. Gera uma árvore binária onde cada caminho define o código binário de uma palavra (esquerda → `0`, direita → `1`).
