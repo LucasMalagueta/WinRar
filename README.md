@@ -1,6 +1,6 @@
 # 🌳 WinRar — Codificação e Decodificação com Árvore de Huffman
 
-Este projeto simula um sistema de **compactação e descompactação de dados** utilizando o **Algoritmo de Huffman**, uma técnica clássica e eficiente para compressão de dados baseada na frequência de palavras.
+Este projeto simula um sistema de **compactação e descompactação de dados** utilizando o **Algoritmo de Huffman**.
 
 ---
 
@@ -9,9 +9,9 @@ Este projeto simula um sistema de **compactação e descompactação de dados** 
 - Leitura da frequência das palavras no texto.
 - Construção da **Árvore de Huffman**.
 - Geração de códigos binários para cada palavra.
-- Compressão do texto original em formato binário.
+- Codificação do texto original em formato binário.
 - Descompressão e reconstrução do texto original.
-- Armazenamento dos códigos e dos dados compactados em arquivos.
+- Armazenamento dos códigos de Huffman bit a bit ultilizando Union.
 
 ---
 
